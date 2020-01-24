@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header id="main-header" class="bg-success text-white p-4 mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-6">
+                    <h1 id="header-title"> My Schedule App</h1>
+                </div>
+        
+                <div class="col-md-3 align-self-center">
+                 <input type="text" class="form-control" placeholder="Search-items" id="filter">
+
+                </div>
+            </div>
+       </div>
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-5 mx-auto">
+                <div id="main" class="card card-body">
+        <h2 class="title">Add Activities</h2>
+        <div><button id="next" type="submit" class="btn btn-success btn-sm float-right" value="Add Items">Next</button>
+            <button id="today" type="submit" class="btn btn-success btn-sm float-right" value="Add Items">Today</button>
+            <button id="previous" type="submit" class="btn btn-success btn-sm float-right" value="Add Items">Previous</button></div>
+                    <form action="" id="form" class="form-inline mb-3">
+        <input type="text" id="activity" class="form-control mb-2 " placeholder="Enter Activities"><br>
+                        <!-- <div>
+                            <input type="date" id="date" class="form-control mb-2 "><br>
+                        </div> -->
+<input type="submit" value="Add Items" class="btn btn-success btn-sm float-right" id="add">
+<div class = "menu">
+    <label><h6>Date:</h6> </label><input type="date" id="date"><br>
+</div>
+                        <!-- <button id="add" type="submit" class="btn btn-success btn-sm float-right" value="Add Items">Add Items</button> -->
+                    </form>
+                    <h2>List Of Todo Items</h2>
+<div><button id="clearall" type="submit" class="btn btn-sm del float-right"  style="background-color: red;">Clear All</button></div>
+                    <ul id="items" class="list-group">
+                         
+                    </ul>
+    
+                </div>
+    
+            </div>
+            <!-- <div class="col-lg-5 mx-auto">
+                
+                <button id="day" type="submit" class="btn btn-success btn-sm float-right" value="Add Items">Next</button>
+                <button id="days" type="submit" class="btn btn-success btn-sm float-right" value="Add Items">Today</button>/bu
+                <button id="dayss" type="submit" class="btn btn-success btn-sm float-right" value="Add Items">Previous<tton>
+                <div class="row">
+                    <div class="col-lg-5 mx-auto">
+                        <div class = "yesterday">
+                            <ul class="list" id="yesterday">
+                                <li><input type = "checkbox" id="cbox"><label for="cbox"></label>first</li>
+                            </ul>
+                        </div>
+                        <div class = "today">
+                            <ul class="list listActive " id="today">
+                                <li><input type= "checkbox" id="cbox"><label for="cbox"></label>second</li>
+                            </ul>
+                        </div>
+                        <div class = "tomorrow">
+                            <ul class="list" id="tomorrow">
+                                <li><input type= "checkbox" id="cbox"><label for="cbox"></label>third</li>
+                            </ul>
+                        </div>
+                        <div class = "menu">
+                            <label><h4>Date complete:</h4> </label><input type="date" id="date"><br>
+                        </div>
+                    </div> -->
+                <!-- </div>
+            </div> -->
+</div>
+        
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
