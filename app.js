@@ -183,8 +183,7 @@ if('serviceWorker' in navigator){
   let search = document.getElementById('filter');
   search.addEventListener('keyup', (e) => {
     e.preventDefault();
-    let text = e.target.value.toLowerC
-    ase();
+    let text = e.target.value.toLowerCase();
     let items = itemList.getElementsByTagName('li');
     let arr = Array.from(items);
     arr.forEach((item) => {
