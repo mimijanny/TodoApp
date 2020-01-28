@@ -1,0 +1,32 @@
+{
+    "name": "Schedule App Built By Mirian Onyemma",
+    "short_name": "Todo App",
+    "start_url": ".",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color":"rgb(0, 255, 98)",
+    "theme_color": "#ccc",
+    "icons": [
+        {
+            "src": "images/icon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+
+}

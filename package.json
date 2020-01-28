@@ -1,0 +1,26 @@
+{
+  "name": "todo_app",
+  "version": "1.0.0",
+  "description": "This is my schedule app",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server -c-1 -p 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mimijanny/TodoApp.git"
+  },
+  "keywords": [
+    "pwa"
+  ],
+  "author": "Mirian Onyemma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mimijanny/TodoApp/issues"
+  },
+  "homepage": "https://github.com/mimijanny/TodoApp#readme",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}
